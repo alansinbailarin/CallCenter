@@ -1,0 +1,41 @@
+.nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.nav li {
+  margin: 0;
+  margin-left: 2rem;
+}
+
+.nav a {
+  text-decoration: none;
+  color: gray;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.nav button {
+  font: inherit;
+  background: rgb(140, 0, 255);
+  border: rgb(140, 0, 255);
+  padding: 0.5rem 1.5rem;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.nav button:focus {
+  outline: none;
+}
+
+.nav button:hover,
+.nav button:active {
+  background: rgb(149, 20, 255);
+  transition: 1s ease-in-out;
+}

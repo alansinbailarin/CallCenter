@@ -1,0 +1,19 @@
+.main-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  padding: 0 2rem;
+  border-bottom: 0.5px solid rgb(202, 202, 202);
+}
+
+.main-header h1 {
+  color: rgb(140, 0, 255);
+  font-weight: bold;
+  font-size: 22px;
+}
