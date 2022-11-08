@@ -1,0 +1,85 @@
+.home {
+  width: 95%;
+  padding: 10px;
+  margin: 10px auto;
+  box-sizing: border-box;
+}
+
+.frow {
+  display: flex;
+}
+
+.frow .col {
+  display: block;
+  margin: 1% 0 1% 1.6%;
+}
+
+.frow .col:first-child {
+  margin-left: 0;
+}
+
+.frow .col3 {
+  width: 32.26%;
+}
+
+.tabla1 {
+  border-radius: 18px;
+}
+
+.tabla1 table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.tabla1 tr:nth-child(odd) {
+  background-color: #ededed;
+}
+
+.tabla1 tr:nth-child(even) {
+  background-color: #ffffff;
+}
+
+.tabla1 td {
+  vertical-align: middle;
+  border: none;
+  border-width: 0px 1px 1px 0px;
+  text-align: center;
+  padding: 11px;
+  font-size: 10px;
+  font-family: Arial;
+  font-weight: bold;
+  color: #000000;
+}
+
+.tabla1 tr:last-child td {
+  border-width: 0px 1px 0px 0px;
+}
+
+.tabla1 tr td:last-child {
+  border-width: 0px 0px 1px 0px;
+}
+
+.tabla1 tr:last-child td:last-child {
+  border-width: 0px 0px 0px 0px;
+}
+
+.tabla1 tr:first-child td {
+  background-color: #ededed;
+  text-align: center;
+  border-width: 0px 0px 1px 1px;
+  font-size: 17px;
+  font-family: Arial;
+  font-weight: bold;
+}
+
+.tabla1 tr:first-child td:first-child {
+  border-width: 0px 0px 1px 0px;
+}
+
+.tabla1 tr:first-child td:last-child {
+  border-width: 0px 0px 1px 1px;
+}
